@@ -1,0 +1,16 @@
+class CrmUrls:
+    CRM_BASE_URL = 'https://dev2.serta.com/crm/'
+    LOGIN_URL = CRM_BASE_URL + 'index.php?r=Admin/auth/login'
+    NEW_CUSTOMER_URL = CRM_BASE_URL + '/index.php?r=CustomerContact/default/create'
+    SEARCH_CUSTOMER_URL = CRM_BASE_URL + '?r=CustomerContact/default/admin'
+    BROWSE_PRODUCTS_URL = CRM_BASE_URL + '?r=CrmShop/admin/CrmCart/update'
+    CHECKOUT_STEP1_URL = CRM_BASE_URL + '?r=CrmShop/admin/crmCheckout/step1'
+    CHECKOUT_STEP2_URL = CRM_BASE_URL + '?r=CrmShop/admin/crmCheckout/step2'
+    REPORT_URL = CRM_BASE_URL + '?r=Dashboard/dashboard/reportsList'
+    ERROR_REPORT_URL = CRM_BASE_URL + '?r=Report/joinEmailListRequest/index'
+    STORE_LOCATOR_URL = CRM_BASE_URL + ''
+
+    GP_CRM_BASE_URL = 'https://stguest-dev.serta.com/crm/'
+    GP_LOGIN_URL = GP_CRM_BASE_URL + 'index.php?r=Admin/auth/login'
+    GP_NEW_SOR = GP_CRM_BASE_URL + '?r=GuestPurchase/CrmSpecialCheckout'
+    GP_SEARCH_CUSTOMER_URL = GP_CRM_BASE_URL + '?r=CustomerContact/default/admin'
