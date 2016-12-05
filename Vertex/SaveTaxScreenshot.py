@@ -20,8 +20,8 @@ class SaveTaxScreenshot(unittest.TestCase):
         element.send_keys(data)
 
     def login(self):
-        self.fillText('username', 'hung5s')
-        self.fillText('password', 'hung5s@Tagrem')
+        self.fillText('username', '')
+        self.fillText('password', '')
         self.driver.find_element_by_xpath("//button[@type='submit']").click()
         self.assertEqual('Dashboard | Vertex SMB', self.driver.title)
 
